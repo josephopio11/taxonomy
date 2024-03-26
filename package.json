@@ -13,7 +13,8 @@
     "start": "next start",
     "lint": "next lint",
     "preview": "next build && next start",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "cleanup": "rm -rf node_modules/ && rm -rf .next/ && rm -rf package-lock.json"
   },
   "dependencies": {
     "@editorjs/code": "^2.8.0",
